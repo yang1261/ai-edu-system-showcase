@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.env.*
+
+# Node
+node_modules/
+dist/
+*.local
+
+# 数据与索引（防止误传真实数据）
+data/
+*.db
+*.sqlite3
+*.index
+knowledge_meta.json
+
+# IDE / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
